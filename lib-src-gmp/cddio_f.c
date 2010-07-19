@@ -495,6 +495,7 @@ int ddf_MatrixAppendTo(ddf_MatrixPtr *M1, ddf_MatrixPtr M2)
        if (set_member(i+1,M2->linset)) set_addelem(M->linset,m1+i+1);
     }
     M->numbtype=(*M1)->numbtype;
+    M->representation=(*M1)->representation;
     ddf_FreeMatrix(*M1);
     *M1=M;
     success=1;
