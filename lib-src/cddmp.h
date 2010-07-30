@@ -37,6 +37,7 @@
  #define dd_init(a)              mpq_init(a)     
  #define dd_clear(a)             mpq_clear(a)     
  #define dd_set(a, b)            mpq_set(a,b)     
+ #define dd_set_d(a, b)          mpq_set_d(a,b) /* new in 094g */
  #define dd_set_si(a, b)         ddd_mpq_set_si(a,b)  /* defined in cddgmp.c */
  #define dd_set_si2(a, b, c)     mpq_set_si(a,b,c)    /* gmp 3.1 or higher */
  #define dd_add(a, b, c)         mpq_add(a,b,c)
