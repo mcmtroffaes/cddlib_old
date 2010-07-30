@@ -4,6 +4,7 @@ libcdd, cdd & cdd+ HISTORY file   (as of February 7, 2008)
 
 Version 094g (not released)
  - (Matthias Troffaes) Representation fix in dd_MatrixAppendTo.
+ - (Matthias Troffaes) Allow building against MPIR instead of GMP.
 
 Version 094f (February 7, 2008) /
  - Thanks to Sven Verdoolaege's fixes,

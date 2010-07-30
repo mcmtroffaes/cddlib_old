@@ -28,7 +28,11 @@
 /**********************************/
 
 #if defined GMPRATIONAL
+#ifdef MPIR
+ #include "mpir.h"
+#else
  #include "gmp.h"
+#endif
  #define dd_ARITHMETIC "GMP rational"
  #define dd_init(a)              mpq_init(a)     
  #define dd_clear(a)             mpq_clear(a)     
