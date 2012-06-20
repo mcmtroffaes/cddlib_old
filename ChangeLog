@@ -1,11 +1,18 @@
-libcdd, cdd & cdd+ HISTORY file   (as of February 7, 2008)
+libcdd, cdd & cdd+ HISTORY file   (as of March 23, 2012)
 
 *** libcdd version (date) / changes ***
 
-Version 094g (not released)
+Extra patches (not released)
  - (Matthias Troffaes) Representation fix in dd_MatrixAppendTo.
  - (Matthias Troffaes) Allow building against MPIR instead of GMP.
  - (Matthias Troffaes) Define dd_set_d also with GMPRATIONAL.
+
+Version 094g (March 23, 2012) /
+ - Thanks to both Anders Jensen and Mathieu Dutour
+   a few memory leaks in cddlib.c and cddlp.c have been
+   fixed.  Also, some patches sent by Jerry James have
+   been applied.  These were for making the library
+   shared and more compatible for C++ compilers.
 
 Version 094f (February 7, 2008) /
  - Thanks to Sven Verdoolaege's fixes,
