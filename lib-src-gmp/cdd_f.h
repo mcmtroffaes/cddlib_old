@@ -49,8 +49,8 @@ extern ddf_LPSolverType ddf_choiceLPSolverDefault;  /* Default LP solver Algorit
 extern ddf_LPSolverType ddf_choiceRedcheckAlgorithm;  /* Redundancy Checking Algorithm */
 extern ddf_boolean ddf_choiceLexicoPivotQ;    /* whether to use the lexicographic pivot */
 
-   /* to be used to avoid creating temporary spaces for myfloat */
-#define ddf_almostzero  1.0E-7
+/* to be used to avoid creating temporary spaces for myfloat */
+#define ddf_almostzero  1.0E-6
 
 /* ---------- FUNCTIONS MEANT TO BE PUBLIC ---------- */
 
