@@ -1,4 +1,4 @@
-libcdd, cdd & cdd+ HISTORY file   (as of March 23, 2012)
+libcdd, cdd & cdd+ HISTORY file   (as of April 30, 2015)
 
 *** libcdd version (date) / changes ***
 
@@ -6,6 +6,9 @@ Extra patches (not released)
  - (Matthias Troffaes) Representation fix in dd_MatrixAppendTo.
  - (Matthias Troffaes) Allow building against MPIR instead of GMP.
  - (Matthias Troffaes) Define dd_set_d also with GMPRATIONAL.
+
+Version 094h (April 30, 2015) /
+ - Thanks to Mathieu Dutour, one minor bug has been fixed.
 
 Version 094g (March 23, 2012) /
  - Thanks to both Anders Jensen and Mathieu Dutour
